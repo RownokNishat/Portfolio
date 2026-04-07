@@ -40,7 +40,7 @@ const Education = () => {
     {
       degree: "M.Sc. in Computer Science & Engineering",
       institution: "BRAC University",
-      period: "Expected Graduation: June 2025",
+      period: "Expected Graduation: January 2027",
       inProgress: true,
     },
     {
