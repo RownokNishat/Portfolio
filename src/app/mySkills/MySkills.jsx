@@ -3,8 +3,6 @@ import react from "../assests/icons/react.png";
 import next from "../assests/icons/nextjs.png";
 import bootstrap from "../assests/icons/bootstrap.png";
 import css from "../assests/icons/css.png";
-import daisyUI from "../assests/icons/daisyUI.png";
-import firebase from "../assests/icons/firebase.png";
 import github from "../assests/icons/github.png";
 import html from "../assests/icons/html.webp";
 import javascript from "../assests/icons/javascript.png";
@@ -14,12 +12,12 @@ import mongo from "../assests/icons/mongo.jpg";
 import nextjs from "../assests/icons/nextjs.png";
 import redux from "../assests/icons/redux.jpg";
 import restapi from "../assests/icons/restapi.jpg";
-import sql from "../assests/icons/sql.png";
 import tailwind from "../assests/icons/tailwind.jpg";
 import typescript from "../assests/icons/typescript.png";
-import vue from "../assests/icons/vue.png";
 import node from "../assests/icons/nodejs.png";
 import vscode from "../assests/icons/vscode.png";
+import postgresql from "../assests/icons/postgresql.svg";
+import prisma from "../assests/icons/prisma.svg";
 import { motion } from "framer-motion";
 import ThreeDIcon from "../utils/ThreeDIcons";
 
@@ -43,11 +41,11 @@ const MySkills = () => {
     ],
     "Database & Tools": [
       { id: 13, src: mongo, name: "MongoDB" },
-      { id: 14, src: sql, name: "PostgreSQL/MySQL" },
-      { id: 15, src: github, name: "Git & GitHub" },
-      { id: 16, src: vscode, name: "VS Code" },
-      { id: 17, src: jwt, name: "JWT" },
-      { id: 18, src: firebase, name: "AWS/Vercel" },
+      { id: 14, src: postgresql, name: "PostgreSQL" },
+      { id: 15, src: prisma, name: "Prisma ORM" },
+      { id: 16, src: github, name: "Git & GitHub" },
+      { id: 17, src: vscode, name: "VS Code" },
+      { id: 18, src: jwt, name: "JWT" },
     ],
   };
 
@@ -70,7 +68,7 @@ const MySkills = () => {
           Technical Skills
         </p>
         <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 font-[500]">
-          3+ Years of Experience with Modern Technologies
+          2+ Years of Experience with Modern Technologies
         </p>
       </motion.div>
 

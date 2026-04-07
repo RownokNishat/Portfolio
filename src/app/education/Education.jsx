@@ -34,17 +34,6 @@ const Education = () => {
         "Designed middleware-based Role-Based Access Control (RBAC), ensuring strict data privacy.",
       ],
     },
-    {
-      company: "Diligite",
-      position: "Frontend Developer",
-      location: "Remote",
-      period: "Sept 2022 – Feb 2023",
-      isCurrent: false,
-      achievements: [
-        "Developed key features, including product favoriting and live order tracking, driving a 20% increase in user engagement.",
-        "Refactored legacy UI components using Tailwind CSS, achieving a 15-point improvement in Lighthouse scores.",
-      ],
-    },
   ];
 
   const educationData = [
@@ -81,7 +70,7 @@ const Education = () => {
             Professional Experience
           </p>
           <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 font-[500] max-w-2xl mx-auto">
-            3+ years of building scalable web applications
+            2+ years of building scalable web applications
           </p>
         </motion.div>
 

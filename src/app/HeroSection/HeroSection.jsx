@@ -145,7 +145,7 @@ export const HeroSection = () => {
           >
             <div className="flex items-center space-x-2 px-4 py-2 bg-gradient-to-r from-[#FD6F00]/20 to-purple-500/20 rounded-full border border-[#FD6F00]/30">
               <WorkIcon className="text-[#FD6F00]" />
-              <span className="font-semibold text-lg">3+ Years Experience</span>
+              <span className="font-semibold text-lg">2+ Years Experience</span>
             </div>
             <div className="flex items-center space-x-2 px-4 py-2 bg-gradient-to-r from-green-500/20 to-blue-500/20 rounded-full border border-green-500/30">
               <CodeIcon className="text-green-500" />
@@ -311,7 +311,7 @@ export const HeroSection = () => {
               transition={{ duration: 0.8, delay: 1.2 }}
             >
               <div className="text-center">
-                <div className="text-3xl font-bold text-[#FD6F00]">3+</div>
+                <div className="text-3xl font-bold text-[#FD6F00]">2+</div>
                 <div className="text-sm font-semibold text-gray-700 dark:text-gray-300">
                   Years
                 </div>

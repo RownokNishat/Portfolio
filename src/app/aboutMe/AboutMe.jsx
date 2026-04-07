@@ -63,7 +63,7 @@ const AboutMe = () => {
               </span>{" "}
               with{" "}
               <span className="font-[600] text-[#FD6F00]">
-                3+ years of experience
+                2+ years of experience
               </span>{" "}
               architecting scalable web platforms using the{" "}
               <span className="font-[600]">MERN stack</span> (MongoDB,
@@ -122,7 +122,7 @@ const AboutMe = () => {
                 Backend Mastery
               </h4>
               <p className="text-sm font-[500] text-gray-600 dark:text-gray-400">
-                Node.js, Express, MongoDB
+                Node.js, Express, MongoDB, PostgreSQL, Prisma ORM
               </p>
             </div>
           </motion.div>

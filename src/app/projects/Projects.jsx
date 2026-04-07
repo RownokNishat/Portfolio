@@ -37,20 +37,20 @@ const Projects = () => {
             </p>
           </div>
 
-          {/* First Project - MediAppointCare */}
+          {/* First Project - SkillBridge */}
           <div className="flex justify-center">
             <div className="bg-gray-900 rounded-md px-5 pt-5 pb-8 shadow-lg opacity-80 ">
               <div className="relative group">
                 <Image
                   className="rounded-md w-full h-auto transition-transform duration-300 group-hover:scale-95"
-                  src={HospitalProjectThumbnail}
-                  alt="MediAppointCare - Hospital Management System"
+                  src={SkillBridgeThumbnail}
+                  alt="SkillBridge - Tutoring Platform"
                   width={1400}
                   height={1400}
                 />
                 <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity duration-300 rounded-md"></div>
                 <div className="absolute bottom-[-4%] left-[20%] sm:left-[30%] flex justify-center">
-                  <Link href="/projects/mediappointcare">
+                  <Link href="/projects/skillbridge">
                     <motion.button
                       initial={{ "--x": "100%", scale: 1.02 }}
                       animate={{ "--x": "-100%" }}
@@ -77,7 +77,7 @@ const Projects = () => {
                       className="px-6 py-2 rounded-md relative radial-gradient hover:bg-opacity-80"
                     >
                       <span className="text-lg text-white font-[600] tracking-wide h-full w-full block relative linear-mask">
-                        MediAppointCare
+                        SkillBridge
                       </span>
                       <span className="block absolute inset-0 rounded-md p-px linear-overlay" />
                     </motion.button>
@@ -88,20 +88,20 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* Right Section - Second Project (eBuy) */}
+        {/* Right Section - Second Project (MediAppointCare) */}
         <div className="flex justify-center lg:max-w-[550px] min-h-[500px] items-center">
           <div className="bg-gray-900 rounded-md px-5 pt-5 pb-16 shadow-lg opacity-80 ">
             <div className="relative group">
               <Image
                 className="rounded-md w-full h-[480px] object-cover transition-transform duration-300 group-hover:scale-95"
-                src={EBuyProjectThumbnail}
-                alt="eBuy - E-Commerce Platform"
+                src={HospitalProjectThumbnail}
+                alt="MediAppointCare - Hospital Management System"
                 width={1400}
                 height={1400}
               />
               <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity duration-300 rounded-md"></div>
-              <div className="absolute bottom-[-4%] left-[40%] flex justify-center">
-                <Link href="/projects/ebuy">
+              <div className="absolute bottom-[-4%] left-[25%] flex justify-center">
+                <Link href="/projects/mediappointcare">
                   <motion.button
                     initial={{ "--x": "100%", scale: 1.02 }}
                     animate={{ "--x": "-100%" }}
@@ -128,7 +128,7 @@ const Projects = () => {
                     className="px-6 py-2 rounded-md relative radial-gradient hover:bg-opacity-80"
                   >
                     <span className="text-white font-[600] tracking-wide h-full w-full block relative linear-mask text-lg">
-                      eBuy
+                      MediAppointCare
                     </span>
                     <span className="block absolute inset-0 rounded-md p-px linear-overlay" />
                   </motion.button>
@@ -139,20 +139,20 @@ const Projects = () => {
         </div>
       </div>
 
-      {/* Third Project - SkillBridge */}
+      {/* Third Project - eBuy */}
       <div className="flex justify-center mt-8 lg:mt-0">
         <div className="bg-gray-900 rounded-md px-5 pt-5 pb-8 shadow-lg opacity-80 w-full lg:max-w-[550px]">
           <div className="relative group">
             <Image
               className="rounded-md w-full h-auto transition-transform duration-300 group-hover:scale-95"
-              src={SkillBridgeThumbnail}
-              alt="SkillBridge - Tutoring Platform"
+              src={EBuyProjectThumbnail}
+              alt="eBuy - E-Commerce Platform"
               width={1400}
               height={1400}
             />
             <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity duration-300 rounded-md"></div>
             <div className="absolute bottom-[-4%] left-[20%] sm:left-[30%] flex justify-center">
-              <Link href="/projects/skillbridge">
+              <Link href="/projects/ebuy">
                 <motion.button
                   initial={{ "--x": "100%", scale: 1.02 }}
                   animate={{ "--x": "-100%" }}
@@ -179,7 +179,7 @@ const Projects = () => {
                   className="px-6 py-2 rounded-md relative radial-gradient hover:bg-opacity-80"
                 >
                   <span className="text-lg text-white font-[600] tracking-wide h-full w-full block relative linear-mask">
-                    SkillBridge
+                    eBuy
                   </span>
                   <span className="block absolute inset-0 rounded-md p-px linear-overlay" />
                 </motion.button>

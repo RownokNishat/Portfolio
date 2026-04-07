@@ -26,8 +26,8 @@ const ShortDescription = () => {
     },
     {
       icon: GroupsIcon,
-      title: "Team Leader",
-      description: "Leading agile teams and mentoring developers",
+      title: "Agile Collaborator",
+      description: "Working effectively in agile teams and contributing to shared goals",
       color: "from-purple-500 to-pink-500",
     },
     {
@@ -154,7 +154,7 @@ const ShortDescription = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 md:gap-8">
             <div className="text-center">
               <div className="text-3xl md:text-2xl font-bold text-[#FD6F00]">
-                3+
+                2+
               </div>
               <div className="text-sm text-gray-600 dark:text-gray-400">
                 Years Experience
