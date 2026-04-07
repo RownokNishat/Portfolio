@@ -11,7 +11,7 @@ const Education = () => {
       company: "Qlearn",
       position: "Software Engineer",
       location: "Remote",
-      period: "May 2024 – Present",
+      period: "February 2025 – Present",
       isCurrent: true,
       link: "https://qlearn.com",
       achievements: [
@@ -25,7 +25,7 @@ const Education = () => {
       company: "Ragnet Software Ltd",
       position: "Software Engineer",
       location: "Dhaka, Bangladesh",
-      period: "Feb 2023 – May 2024",
+      period: "Feb 2024 – January 2025",
       isCurrent: false,
       achievements: [
         "Independently managed the full SDLC for 6+ Enterprise ERP modules, delivering critical financial tools.",
