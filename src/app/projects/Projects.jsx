@@ -3,7 +3,7 @@ import React from "react";
 import HospitalProjectThumbnail from "../assests/projectSS/hospital-dash.png";
 import EBuyProjectThumbnail from "../assests/projectSS/eBuy-landing.png";
 import SkillBridgeThumbnail from "../assests/projectSS/skillbridge-landing.png";
-import CineTubeThumbnail from "../assests/projectSS/cintehube homepage.png";
+import CineTubeThumbnail from "../assests/projectSS/cinetube thumbnail.png";
 import Image from "next/image";
 import Link from "next/link";
 import { motion, stagger, useAnimate, animate } from "framer-motion";
