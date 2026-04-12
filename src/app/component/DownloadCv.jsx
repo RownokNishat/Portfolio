@@ -4,7 +4,7 @@ const DownloadButton = () => {
   const handleDownload = () => {
     //drive.google.com/file/d/11H3kXYg-ygwTZHAXwuSz2c_lpez5R2Ob/view?usp=sharing
     window.open(
-      "https://drive.google.com/file/d/148yur7pGqiV1NxMjRGMCxOinGG8K_qYv/view?usp=sharing"
+      "https://drive.google.com/file/d/1pGtOp5Z0ShWvv_Mtcnn-6cSq0okbK-ju/view?usp=sharing"
     ); // Adjust the path as needed
     // Create an anchor element and trigger a download
   };

@@ -3,6 +3,7 @@ import React from "react";
 import HospitalProjectThumbnail from "../assests/projectSS/hospital-dash.png";
 import EBuyProjectThumbnail from "../assests/projectSS/eBuy-landing.png";
 import SkillBridgeThumbnail from "../assests/projectSS/skillbridge-landing.png";
+import CineTubeThumbnail from "../assests/projectSS/cintehube homepage.png";
 import Image from "next/image";
 import Link from "next/link";
 import { motion, stagger, useAnimate, animate } from "framer-motion";
@@ -180,6 +181,59 @@ const Projects = () => {
                 >
                   <span className="text-lg text-white font-[600] tracking-wide h-full w-full block relative linear-mask">
                     eBuy
+                  </span>
+                  <span className="block absolute inset-0 rounded-md p-px linear-overlay" />
+                </motion.button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Fourth Project - CineTube */}
+      <div className="flex justify-center mt-8">
+        <div className="w-full lg:max-w-[1120px]">
+          <div className="bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 rounded-md px-5 pt-5 pb-16 shadow-lg relative overflow-hidden">
+            {/* Screenshot */}
+            <div className="relative group">
+              <Image
+                src={CineTubeThumbnail}
+                alt="CineTube - Movie & Series Platform"
+                width={1400}
+                height={800}
+                className="rounded-md w-full h-auto transition-transform duration-300 group-hover:scale-95"
+              />
+              <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity duration-300 rounded-md" />
+            </div>
+            <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex justify-center">
+              <Link href="/projects/cinetube">
+                <motion.button
+                  initial={{ "--x": "100%", scale: 1.02 }}
+                  animate={{ "--x": "-100%" }}
+                  whileTap={{ scale: 0.97 }}
+                  whileHover={{
+                    scale: 1.03,
+                    boxShadow: "0px 0px 15px rgba(255, 255, 255, 0.5)",
+                  }}
+                  transition={{
+                    repeat: Infinity,
+                    repeatType: "loop",
+                    repeatDelay: 1,
+                    type: "spring",
+                    stiffness: 20,
+                    damping: 15,
+                    mass: 2,
+                    scale: {
+                      type: "spring",
+                      stiffness: 10,
+                      damping: 5,
+                      mass: 0.1,
+                    },
+                  }}
+                  className="px-6 py-2 rounded-md relative radial-gradient hover:bg-opacity-80"
+                >
+                  <span className="text-lg text-white font-[600] tracking-wide h-full w-full block relative linear-mask">
+                    CineTube
                   </span>
                   <span className="block absolute inset-0 rounded-md p-px linear-overlay" />
                 </motion.button>
