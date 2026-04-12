@@ -4,7 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Header from "../../component/Header";
-import CineTubeHomepage from "../../assests/projectSS/cintehube homepage.png";
+import CineTubeThumbnail from "../../assests/projectSS/cinetube thumbnail.png";
+import CineTubeFeatured from "../../assests/projectSS/cinetube featured.png";
 import CineTubeAdminDash from "../../assests/projectSS/cinetube admin dashboard.png";
 import CineTubeDetailsPage from "../../assests/projectSS/cinetube details page.png";
 import CineTubeDetails from "../../assests/projectSS/cinetube details.png";
@@ -331,8 +332,8 @@ const CineTube = () => {
             className="mb-12 rounded-xl overflow-hidden shadow-2xl border-2 border-blue-900"
           >
             <Image
-              src={CineTubeHomepage}
-              alt="CineTube - Homepage"
+              src={CineTubeFeatured}
+              alt="CineTube - Featured"
               width={1400}
               height={800}
               className="w-full h-auto"
@@ -402,7 +403,7 @@ const CineTube = () => {
                   </h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {[
-                      { src: CineTubeHomepage, alt: "CineTube Homepage" },
+                      { src: CineTubeThumbnail, alt: "CineTube Thumbnail" },
                       { src: CineTubeAdminDash, alt: "Admin Dashboard" },
                       { src: CineTubeDetailsPage, alt: "Movie Details Page" },
                       { src: CineTubeDetails, alt: "Series Details" },
